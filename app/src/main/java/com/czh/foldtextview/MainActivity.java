@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
         ftv.setDesc("内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本内容文本");
         //设置展开前最大行数
         ftv.lines = 3;
-        ftv.desc.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
-        ftv.desc.setTextColor(ContextCompat.getColor(this,R.color.colorAccent));
+
+        //ftv.desc.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
+        //ftv.desc.setTextColor(ContextCompat.getColor(this,R.color.colorAccent));
     }
 }
